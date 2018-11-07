@@ -1,0 +1,10 @@
+country:
+- Russia
+- Finland
+- Sweden
+flat:
+  price:
+    card: 24ˆ
+    cash: 24ˆ
+  square: '24'
+integer: 5
