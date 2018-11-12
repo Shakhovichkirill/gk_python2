@@ -19,7 +19,7 @@ with socket(AF_INET, SOCK_STREAM) as s:
                 "account_name":  "test",
                 "status":      "Yes, I am here!"
         }
-}
+    }
     msg_str = json.dumps(msg)
     s.send(msg_str.encode('utf-8'))
     data = s.recv(1000000)
